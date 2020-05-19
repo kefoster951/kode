@@ -13,7 +13,7 @@ W='\033[1;37m'
 OFF='\033[0m'
 DATE="$(date '+%a %d %b %y  %R:%S')"
 FORMAT="%-16s %-30s %s\n"
-CODE_TEMPLATE="$SCRIPT_ROOT_DIR/.kode"
+CODE_TEMPLATE="$SCRIPT_ROOT_DIR/.config/kode"
 CONFIG_FILE="$CODE_TEMPLATE/kodeconfig"
 DEFAULT_CONFIG_FILE="$CONFIG_FILE.temp"
 
